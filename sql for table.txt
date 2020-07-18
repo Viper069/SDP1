@@ -1,0 +1,17 @@
+Database = CREATE DATABASE sdp1;
+
+table1
+
+admin = CREATE TABLE admin (id int(20),username varchar(200),passcode varchar(200), PRIMARY KEY(id));
+
+table2
+
+student = CREATE TABLE student(Roll int(20),Name varchar(200),Phone_Number int(20),Address varchar(300),Class int(4),GPA double)
+
+table3
+
+teacher= CREATE TABLE teacher(ID int(10),Name varchar(200),Phone_Number int(20),Address varchar(300), Email varchar(200))
+
+table4
+
+Notice = CREATE TABLE notice(SL_No int(5), Notice varchar(3000))
